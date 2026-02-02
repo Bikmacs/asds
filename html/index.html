@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Car&Drive — аренда автомобилей любого класса. На любой случай, любой автомобиль.">
+    <title>Car&Drive — Аренда автомобилей</title>
+    <link rel="icon" href="../images/svg/logo.svg" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo">
+                <img src="../images/svg/logo.svg" alt="Car&Drive логотип">
+                <span>Car<span class="header__logo-accent">&amp;</span>Drive</span>
+            </a>
+            <nav class="header__nav">
+                <a href="#promotions" class="header__nav-link header__nav-link--active">Акции</a>
+                <a href="booking.html" class="header__nav-link">Бронирование</a>
+                <a href="profile.html" class="header__nav-link">Личный кабинет</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__bg">
+            <img src="../images/roads/Road_in_Norway.jpg" alt="Дорога">
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <div class="hero__badge">Сервис аренды автомобилей</div>
+                    <h1 class="hero__title">На любой случай,<br><span class="hero__title-accent">любой автомобиль</span></h1>
+                    <p class="hero__subtitle">Car&amp;Drive — новая и энергичная компания по аренде автомобилей. Мы делаем любой автомобиль более доступным и практичным для вас.</p>
+                    <div class="hero__buttons">
+                        <a href="booking.html" class="btn btn--primary">Забронировать</a>
+                        <a href="branches.html" class="btn btn--secondary">Наши филиалы</a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <div class="hero__stat-value">500+</div>
+                            <div class="hero__stat-label">Автомобилей</div>
+                        </div>
+                        <div class="hero__stat">
+                            <div class="hero__stat-value">5</div>
+                            <div class="hero__stat-label">Филиалов</div>
+                        </div>
+                        <div class="hero__stat">
+                            <div class="hero__stat-value">24/7</div>
+                            <div class="hero__stat-label">Поддержка</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="../images/cars/white-jaguar.png" alt="Автомобиль">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Почему мы</div>
+                <h2 class="section-title">Доверьте нам вашу поездку</h2>
+                <p class="section-subtitle">Мы обеспечиваем комфорт и надёжность на каждом этапе вашего путешествия</p>
+            </div>
+            <div class="trust__grid">
+                <div class="trust__card">
+                    <div class="trust__card-icon">🚗</div>
+                    <h3 class="trust__card-title">Выбор автомобиля</h3>
+                    <p class="trust__card-text">Широкий выбор автомобилей от эконом до премиум класса под любые задачи</p>
+                </div>
+                <div class="trust__card">
+                    <div class="trust__card-icon">📍</div>
+                    <h3 class="trust__card-title">Место и время</h3>
+                    <p class="trust__card-text">Возможность выбора удобного места, времени и даты аренды автомобиля</p>
+                </div>
+                <div class="trust__card">
+                    <div class="trust__card-icon">💰</div>
+                    <h3 class="trust__card-title">Выбор тарифа</h3>
+                    <p class="trust__card-text">Гибкие тарифы и скидки за длительную аренду до 25% от стоимости</p>
+                </div>
+                <div class="trust__card">
+                    <div class="trust__card-icon">💳</div>
+                    <h3 class="trust__card-title">Удобная оплата</h3>
+                    <p class="trust__card-text">Удобная система оплаты банковскими картами Visa, MasterCard, Мир</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-section" id="promotions">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Поиск</div>
+                <h2 class="section-title">Найдите идеальный автомобиль</h2>
+            </div>
+            <form class="search__form">
+                <div class="form-group">
+                    <label for="car-class">Класс автомобиля</label>
+                    <select id="car-class" class="form-control">
+                        <option value="">Выберите класс</option>
+                        <option value="economy">Эконом</option>
+                        <option value="premium">Премиум</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="car-brand">Марка</label>
+                    <select id="car-brand" class="form-control">
+                        <option value="">Выберите марку</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="bmw">BMW</option>
+                        <option value="mercedes">Mercedes-Benz</option>
+                        <option value="audi">Audi</option>
+                        <option value="honda">Honda</option>
+                        <option value="jaguar">Jaguar</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="car-model">Модель</label>
+                    <select id="car-model" class="form-control">
+                        <option value="">Выберите модель</option>
+                        <option value="corolla">Corolla</option>
+                        <option value="yaris">Yaris</option>
+                        <option value="camry">Camry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <button type="submit" class="btn btn--primary btn--full">Найти автомобили</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Новости</div>
+                <h2 class="section-title">Последние события</h2>
+            </div>
+            <div class="news__grid">
+                <article class="news__card">
+                    <img src="../images/roads/road-travel.jpg" alt="Новость" class="news__card-image">
+                    <div class="news__card-body">
+                        <h3 class="news__card-title">В России вынесли первый приговор за продажу аккаунтов каршеринга</h3>
+                        <p class="news__card-text">В конце 2020 года в России вынесли первый приговор за продажу аккаунтов каршеринга. Приморский районный суд Петербурга оштрафовал гражданина РФ на 50 тыс. рублей.</p>
+                        <div class="news__card-link"><a href="#" class="btn btn--outline btn--sm">Читать далее</a></div>
+                    </div>
+                </article>
+                <article class="news__card">
+                    <img src="../images/roads/m11-1024x576.jpg" alt="Новость" class="news__card-image">
+                    <div class="news__card-body">
+                        <h3 class="news__card-title">Программа поддержки каршеринга не заработала из-за российского оборудования</h3>
+                        <p class="news__card-text">25 августа 2020 года стало известно о том, что программа поддержки каршеринга, которая была анонсирована ещё в апреле на совещании у президента, так и не заработала.</p>
+                        <div class="news__card-link"><a href="#" class="btn btn--outline btn--sm">Читать далее</a></div>
+                    </div>
+                </article>
+                <article class="news__card">
+                    <img src="../images/roads/roadrage.jpg" alt="Новость" class="news__card-image">
+                    <div class="news__card-body">
+                        <h3 class="news__card-title">Мошенничество с данными клиентов каршеринга</h3>
+                        <p class="news__card-text">По сообщениям на июль 2020 г каршеринг становится отличным помощником для мошенников. С помощью селфи клиентов с паспортом на людей берут кредиты.</p>
+                        <div class="news__card-link"><a href="#" class="btn btn--outline btn--sm">Читать далее</a></div>
+                    </div>
+                </article>
+                <article class="news__card">
+                    <img src="../images/roads/road-family.jpg" alt="Новость" class="news__card-image">
+                    <div class="news__card-body">
+                        <h3 class="news__card-title">Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности</h3>
+                        <p class="news__card-text">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия предписаний Роспотребнадзора.</p>
+                        <div class="news__card-link"><a href="#" class="btn btn--outline btn--sm">Читать далее</a></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div>
+                    <div class="footer__brand"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car&amp;Drive</span></div>
+                    <p class="footer__desc">На любой случай, любой автомобиль. Компания Car&amp;Drive — ваш надёжный партнёр в мире аренды автомобилей.</p>
+                    <div class="footer__phone">8 (800) 111-11-11</div>
+                </div>
+                <div>
+                    <h4 class="footer__title">Навигация</h4>
+                    <div class="footer__links">
+                        <a href="index.html">Главная</a>
+                        <a href="booking.html">Бронирование</a>
+                        <a href="branches.html">Филиалы</a>
+                        <a href="history.html">История</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer__title">Личный кабинет</h4>
+                    <div class="footer__links">
+                        <a href="profile.html">Профиль</a>
+                        <a href="cards.html">Банковские карты</a>
+                        <a href="login.html">Вход</a>
+                        <a href="register.html">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">&copy; 2023 Car&amp;Drive. Все права защищены.</div>
+        </div>
+    </footer>
+</body>
+</html>

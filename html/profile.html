@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет — Car&Drive</title>
+    <link rel="icon" href="../images/svg/logo.svg" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car<span class="header__logo-accent">&amp;</span>Drive</span></a>
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">Главная</a>
+                <a href="booking.html" class="header__nav-link">Бронирование</a>
+                <a href="profile.html" class="header__nav-link header__nav-link--active">Личный кабинет</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="page__header">
+            <div class="container">
+                <h1 class="page__title">Личный кабинет</h1>
+                <p class="page__subtitle">Управление вашим аккаунтом</p>
+            </div>
+        </div>
+        <div class="page__content">
+            <div class="container">
+                <div class="profile">
+                    <div class="profile__sidebar">
+                        <div class="profile__avatar">ИИ</div>
+                        <div class="profile__name">Иванов Иван Иванович</div>
+                        <div class="profile__id">ID: 10482</div>
+                        <div class="profile__stats">
+                            <div class="profile__stat"><div class="profile__stat-value">1 250</div><div class="profile__stat-label">Баллы</div></div>
+                            <div class="profile__stat"><div class="profile__stat-value">7</div><div class="profile__stat-label">Бронирований</div></div>
+                        </div>
+                        <div class="profile__actions">
+                            <a href="cards.html" class="btn btn--secondary btn--full">Банковские карты</a>
+                            <a href="history.html" class="btn btn--secondary btn--full">История бронирований</a>
+                            <a href="login.html" class="btn btn--danger btn--full">Выйти</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile__section">
+                            <h2 class="profile__section-title">Личные данные</h2>
+                            <div class="profile__info-grid">
+                                <div><div class="profile__info-label">Имя</div><div class="profile__info-value">Иван</div></div>
+                                <div><div class="profile__info-label">Фамилия</div><div class="profile__info-value">Иванов</div></div>
+                                <div><div class="profile__info-label">Отчество</div><div class="profile__info-value">Иванович</div></div>
+                                <div><div class="profile__info-label">Баллы</div><div class="profile__info-value profile__info-value--highlight">1 250</div></div>
+                                <div><div class="profile__info-label">Количество бронирований</div><div class="profile__info-value">7</div></div>
+                            </div>
+                        </div>
+                        <div class="profile__section">
+                            <h2 class="profile__section-title">Последнее бронирование</h2>
+                            <div class="profile__info-grid">
+                                <div><div class="profile__info-label">Автомобиль</div><div class="profile__info-value">Jaguar XF</div></div>
+                                <div><div class="profile__info-label">Дата</div><div class="profile__info-value">15.03.2023 — 20.03.2023</div></div>
+                                <div><div class="profile__info-label">Филиал</div><div class="profile__info-value">Москва, ул. Ленина 12</div></div>
+                                <div><div class="profile__info-label">Стоимость</div><div class="profile__info-value profile__info-value--highlight">18 500 ₽</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div><div class="footer__brand"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car&amp;Drive</span></div><p class="footer__desc">На любой случай, любой автомобиль.</p><div class="footer__phone">8 (800) 111-11-11</div></div>
+                <div><h4 class="footer__title">Навигация</h4><div class="footer__links"><a href="index.html">Главная</a><a href="booking.html">Бронирование</a><a href="branches.html">Филиалы</a><a href="history.html">История</a></div></div>
+                <div><h4 class="footer__title">Личный кабинет</h4><div class="footer__links"><a href="profile.html">Профиль</a><a href="cards.html">Банковские карты</a><a href="login.html">Вход</a><a href="register.html">Регистрация</a></div></div>
+            </div>
+            <div class="footer__bottom">&copy; 2023 Car&amp;Drive. Все права защищены.</div>
+        </div>
+    </footer>
+</body>
+</html>

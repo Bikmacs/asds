@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банковские карты — Car&Drive</title>
+    <link rel="icon" href="../images/svg/logo.svg" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car<span class="header__logo-accent">&amp;</span>Drive</span></a>
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">Главная</a>
+                <a href="booking.html" class="header__nav-link">Бронирование</a>
+                <a href="profile.html" class="header__nav-link">Личный кабинет</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="page__header">
+            <div class="container">
+                <h1 class="page__title">Банковские карты</h1>
+                <p class="page__subtitle">Управление привязанными картами</p>
+            </div>
+        </div>
+        <div class="page__content">
+            <div class="container">
+                <div class="cards__grid">
+                    <div class="bank-card bank-card--dark">
+                        <div class="bank-card__top">
+                            <img src="../images/card/visa.png" alt="Visa" class="bank-card__type-img">
+                            <span class="bank-card__status bank-card__status--active">Активна</span>
+                        </div>
+                        <div class="bank-card__number">**** **** **** 4532</div>
+                        <div class="bank-card__bottom">
+                            <span class="bank-card__holder">IVANOV IVAN</span>
+                            <span class="bank-card__expiry">05/27</span>
+                        </div>
+                    </div>
+
+                    <div class="bank-card bank-card--light">
+                        <div class="bank-card__top">
+                            <img src="../images/card/master-card.png" alt="MasterCard" class="bank-card__type-img">
+                            <span class="bank-card__status bank-card__status--active">Активна</span>
+                        </div>
+                        <div class="bank-card__number">**** **** **** 7891</div>
+                        <div class="bank-card__bottom">
+                            <span class="bank-card__holder">IVANOV IVAN</span>
+                            <span class="bank-card__expiry">11/26</span>
+                        </div>
+                    </div>
+
+                    <div class="bank-card bank-card--dark">
+                        <div class="bank-card__top">
+                            <img src="../images/card/mir.png" alt="Мир" class="bank-card__type-img">
+                            <span class="bank-card__status bank-card__status--expired">Срок истёк</span>
+                        </div>
+                        <div class="bank-card__number">**** **** **** 2048</div>
+                        <div class="bank-card__bottom">
+                            <span class="bank-card__holder">IVANOV IVAN</span>
+                            <span class="bank-card__expiry">01/23</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="add-card-section">
+                    <h2 class="add-card-section__title">Добавить карту</h2>
+                    <div class="add-card-section__preview">
+                        <div class="add-card-section__preview-top">
+                            <span class="add-card-section__preview-label">Банковская карта</span>
+                        </div>
+                        <div class="add-card-section__preview-number">**** **** **** ****</div>
+                        <div class="add-card-section__preview-bottom">
+                            <span>CARD HOLDER</span>
+                            <span>MM/YY</span>
+                        </div>
+                    </div>
+                    <form class="add-card-form">
+                        <div class="form-group">
+                            <label for="new-card-number">Номер карты</label>
+                            <input type="text" id="new-card-number" class="form-control" placeholder="0000 0000 0000 0000" maxlength="19">
+                        </div>
+                        <div class="form-group">
+                            <label for="new-card-holder">Держатель карты</label>
+                            <input type="text" id="new-card-holder" class="form-control" placeholder="IVAN IVANOV">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="new-card-date">Срок действия</label>
+                                <input type="text" id="new-card-date" class="form-control" placeholder="MM/YY" maxlength="5">
+                            </div>
+                            <div class="form-group">
+                                <label for="new-card-cvv">CVV/CVC</label>
+                                <input type="password" id="new-card-cvv" class="form-control" placeholder="***" maxlength="3">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Добавить карту</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div><div class="footer__brand"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car&amp;Drive</span></div><p class="footer__desc">На любой случай, любой автомобиль.</p><div class="footer__phone">8 (800) 111-11-11</div></div>
+                <div><h4 class="footer__title">Навигация</h4><div class="footer__links"><a href="index.html">Главная</a><a href="booking.html">Бронирование</a><a href="branches.html">Филиалы</a><a href="history.html">История</a></div></div>
+                <div><h4 class="footer__title">Личный кабинет</h4><div class="footer__links"><a href="profile.html">Профиль</a><a href="cards.html">Банковские карты</a><a href="login.html">Вход</a><a href="register.html">Регистрация</a></div></div>
+            </div>
+            <div class="footer__bottom">&copy; 2023 Car&amp;Drive. Все права защищены.</div>
+        </div>
+    </footer>
+</body>
+</html>

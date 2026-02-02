@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация — Car&Drive</title>
+    <link rel="icon" href="../images/svg/logo.svg" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car<span class="header__logo-accent">&amp;</span>Drive</span></a>
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">Главная</a>
+                <a href="booking.html" class="header__nav-link">Бронирование</a>
+                <a href="register.html" class="header__nav-link header__nav-link--active">Регистрация</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="auth">
+        <div class="auth__card auth__card--wide">
+            <div class="auth__logo-block"><img src="../images/svg/logo.svg" alt="Car&Drive" class="auth__logo-img"></div>
+            <h1 class="auth__title">Регистрация</h1>
+            <p class="auth__subtitle">Создайте аккаунт в сервисе Car&amp;Drive</p>
+            <form class="auth__form">
+                <div class="form-row">
+                    <div class="form-group"><label for="reg-name">Имя</label><input type="text" id="reg-name" class="form-control" placeholder="Иван"></div>
+                    <div class="form-group"><label for="reg-surname">Фамилия</label><input type="text" id="reg-surname" class="form-control" placeholder="Иванов"></div>
+                </div>
+                <div class="form-group"><label for="reg-patronymic">Отчество</label><input type="text" id="reg-patronymic" class="form-control" placeholder="Иванович"></div>
+                <div class="form-group"><label for="reg-passport">Паспортные данные</label><input type="text" id="reg-passport" class="form-control" placeholder="Серия и номер паспорта"></div>
+                <div class="form-row">
+                    <div class="form-group"><label for="reg-phone">Телефон</label><input type="tel" id="reg-phone" class="form-control" placeholder="+7 (___) ___-__-__"></div>
+                    <div class="form-group"><label for="reg-birthday">Дата рождения</label><input type="date" id="reg-birthday" class="form-control"></div>
+                </div>
+                <div class="form-group"><label for="reg-password">Пароль</label><input type="password" id="reg-password" class="form-control" placeholder="Придумайте пароль"></div>
+                <div class="form-group"><label for="reg-password2">Повтор пароля</label><input type="password" id="reg-password2" class="form-control" placeholder="Повторите пароль"></div>
+                <button type="submit" class="btn btn--primary btn--full">Зарегистрироваться</button>
+            </form>
+            <div class="auth__footer">Уже есть аккаунт? <a href="login.html">Войти</a></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div><div class="footer__brand"><img src="../images/svg/logo.svg" alt="Car&Drive"><span>Car&amp;Drive</span></div><p class="footer__desc">На любой случай, любой автомобиль.</p><div class="footer__phone">8 (800) 111-11-11</div></div>
+                <div><h4 class="footer__title">Навигация</h4><div class="footer__links"><a href="index.html">Главная</a><a href="booking.html">Бронирование</a><a href="branches.html">Филиалы</a><a href="history.html">История</a></div></div>
+                <div><h4 class="footer__title">Личный кабинет</h4><div class="footer__links"><a href="profile.html">Профиль</a><a href="cards.html">Банковские карты</a><a href="login.html">Вход</a><a href="register.html">Регистрация</a></div></div>
+            </div>
+            <div class="footer__bottom">&copy; 2023 Car&amp;Drive. Все права защищены.</div>
+        </div>
+    </footer>
+</body>
+</html>
